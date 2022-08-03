@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1, h1, h3, h4, h5, h6, p, a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+header{
+
+background: #f6f9f9;
+}
+.header_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+height: 70px;
+
+align-items: center;
+}
+.logo{
+
+}
+.logo img{
+
+}
+nav{
+
+width: 70;
+
+/* width: 30%; */
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+
+justify-content: space-between;
+}
+nav ul li{
+
+margin-left: 50px;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.flex{
+
+}
+.flex_item{
+    
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 50%; */
+    bottom: 100;
+    position: relative;
+}
+
+.banner_content{
+    
+text-align: center;
+}
+
+.banner_content h1{
+
+font-size: 100px;
+
+color: #fff;
+
+margin-bottom: 15px;
+
+font-family: 'Lato', sans-serif;
+}
+
+.banner_content span{
+
+display: block;
+
+width: 100%;
+
+height: 2px;
+
+background-color: #15a4fa;
+}
+
+.banner_content p{
+
+color: #fff;
+
+margin-top: 15px;
+
+margin-bottom: 50px;
+
+font-size: 21px;
+
+font-family: 'Lato', sans-serif;
+}
+
+.banner_content button{
+    transition: .5s all ease-in-out;
+    background: transparent;
+    color: 1px solid #15a4fa;
+    color: #fff;
+    border: none;
+    border: 2px solid #15a4fa;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner_content button:hover{
+    background-color: #15a4fa;
+
+}
+
+.icon{
+    
+position: absolute;
+    
+left: 50%;
+    
+bottom: 100px;
+    
+transform: translate(-50%, 0px);
+    
+color: #fff;
+    
+font-size: 29;
+    
+font-size: 29px;
+animation: updown .5s linear infinite;
+animation-direction: alternate;
+}
+
+@keyframes updown{
+    0%{
+        bottom: 100px;
+    }
+    100%{
+        bottom: 115px;
+    }
+}
+
+.simple{
+
+padding: 50px 0;
+
+background: #f6f9f9;
+}
+.simple_content{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+}
+.simple_content h1{
+
+color: #2d3950;
+
+font-size: 40px;
+font-weight: 450;
+
+margin-bottom: 30px;
+}
+.simple_content p{
+    
+color: #999999;
+
+font-size: 20px;
+    
+font-family: 'Lato', sans-serif;
+}
+
+.feature{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 50px 0;
+}
+.feature_item{
+
+width: 30%;
+
+text-align: center;
+}
+.feature_item h2{
+    margin-bottom: 15px;
+    color: #2d3950;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.feature_item p{
+
+color: #999999;
+}
+.feature_icon{
+
+width: 80px;
+
+height: 80px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+0,5fc3ff+50,48baff+50,5fc3ff+50,5fc3ff+50,48baff+50,48baff+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 0%, #5fc3ff 50%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #48baff 50%, #48baff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 0%,#5fc3ff 50%,#48baff 50%,#5fc3ff 50%,#5fc3ff 50%,#48baff 50%,#48baff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e5799 0%,#7db9e8 0%,#5fc3ff 50%,#48baff 50%,#5fc3ff 50%,#5fc3ff 50%,#48baff 50%,#48baff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#48baff',GradientType=1 ); /* IE6-9 */
+
+
+color: #fff;
+
+font-size: 30px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin: auto;
+
+margin-bottom: 22px;
+}
+.showcase_section{
+
+background: #f6f9f9;
+
+padding: 100px 0;
+}
+.section_wrapper{
+
+width: 80%;
+
+margin: auto;
+}
+.section_heading{
+
+text-align: center;
+}
+.section_heading h1{
+
+font-size: 40px;
+color: #2d3950;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+}
+.section_heading p{
+
+color: #909090;
+font-family: 'Lato', sans-serif; 
+margin: 15px;
+    
+font-size: 16px;
+}
+.gallery{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallery_item{
+    width: 32%;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+      
+
+}
+.gallery_item::before{
+  content:'';
+  position: absolute;
+  left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #15a4fa;
+    opacity: .5;
+    transition: .5s all ease-in-out;
+
+   
+}
+.gallery_item::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: red;
+    opacity: .5;
+    transition: .4s all ease-in-out;
+}
+.gallery_item:hover::after{
+    height: 50%;
+}
+.gallery_item:hover::before{
+    height: 50%;
+
+}
+.gallery_item img{
+width: 100%;
+display: block;
+
+}
+.gallery_item ul{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    list-style: none;
+    display: flex;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+    z-index: 9;
+}
+.gallery_item:hover ul{
+    opacity: 1;
+    top: 50%;
+}
+.gallery_item ul li{
+    width: 39px;
+    height: 39px;
+    color: #fff;
+    border: 2px solid #fff;
+    margin: 5px;
+    line-height: 39px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+.contact_us{
+    background-image: url(../images/form1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    position: relative;
+    z-index: 0;
+
+}
+.contact_us::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2d3950;
+    opacity: .7;
+    z-index: -1;
+}
+
+.contact_us h1{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+}
+.contact_wrapper{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+.contact_us p{
+    margin-bottom: 50px;
+    color: #999999;
+
+}
+.contact_us form{
+    
+}
+.contact_us form input{
+    width: 96%;
+    margin-bottom: 15px;
+    background: transparent;
+    border: 2px solid #999999;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    caret-color: #fff;
+    
+}
+.contact_us form input[type="submit"]{
+    width: auto;
+    padding: 10px 22px;
+    color: #fff;
+    border: 2px solid #15a4fa;
+    background: transparent;
+    border-radius: 0;    
+}
+.contact_us form input[type="submit"]:hover{
+    background-color: #15a4fa;
+}
+.contact_us form input:focus{
+    outline: none;
+}
+.contact_us form textarea:focus{
+    outline: none;
+}
+.contact_us form input::placeholder{
+ color: #fff;
+}
+.contact_us form  textarea::placeholder{
+    color: #fff;
+   }
+.contact_us form textarea{
+    width: 96%;
+    margin-bottom: 6px;
+    background: transparent;
+    border: 2px solid #999999;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    caret-color: #fff;
+    
+}
+.Subscribe{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+
+}
+.check_box{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.check_box p{
+    margin: 0;
+    color: #fff;
+    margin-left: 15px;
+
+}
+.check_box input[type="checkbox"]{
+    width: auto;
+    margin: 0;
+    color: #909090;
+    border-radius: 10px;
+
+}
+/* Footer */
+.footer_wrapper {
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+}
+.footer_left{
+    width: 50%;
+}
+.footer_right{
+    width: 50%;
+}
+.footer_right ul{
+    list-style: none;
+    display: flex;
+    justify-content:end;
+    margin-right: 200px;
+}
+.footer_right ul li {
+    margin-left: 4px;
+    width: 35px;
+    background: rgb(21, 164, 250);
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 2px;
+}
+.footer_right ul li a{
+    color: white;
+}
+.footer_left p{
+    color: #999999;
+    font-size: 14px;
+    margin-left: 200px;
+}
+
